@@ -55,7 +55,7 @@ const Header = () => {
                 </ul>
             </div>
             {/* mobile navber*/}
-            <div className="md:hidden">
+            <div className="md:hidden" onClick={()=>setOpen(!open)}>
                 <AiOutlineMenu className="text-xl"/>
             </div>
         </div>
