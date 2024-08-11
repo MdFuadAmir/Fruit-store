@@ -39,7 +39,7 @@ const Header = () => {
         <div className="p-4 flex justify-between items-center max-w-6xl mx-auto">
             {/* logo */}
             <div className="flex gap-2 items-center text-2xl font-bold">
-                <p className="text-red-500">FRUIT</p>
+                <p className="text-[#DC143C]">FRUIT</p>
                 <p className="text-orange-500">STORE</p>
                 <LuLeafyGreen color="green"/>
             </div>
