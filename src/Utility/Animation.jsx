@@ -47,3 +47,6 @@ export const Federight = (delay) =>{
         }
     }
 };
+// variants={Federight(0.6)}
+// initial="hidden"
+// animate="visible"

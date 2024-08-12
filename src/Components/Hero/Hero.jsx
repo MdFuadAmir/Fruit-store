@@ -6,9 +6,9 @@ import { FedeLeft } from "../../Utility/Animation";
 const Hero = () => {
     return (
         <section className="max-w-6xl mx-auto p-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center py-8 md:py-12 gap-12 md:gap-2">
+            <div className="flex flex-col-reverse md:flex-row items-center py-8 md:py-12 gap-12 md:gap-2">
                 {/* information */}
-                <div className="space-y-6">
+                <div className="space-y-6 md:w-1/2 w-full">
                        <motion.h1
                        variants={Federight(0.6)}
                        initial="hidden"
@@ -37,7 +37,7 @@ const Hero = () => {
 
                 </div>
                 {/* Image */}
-                <div>
+                <div className="w-full md:w-1/2">
                     <motion.img
                     variants={FedeLeft(0.6)}
                     initial={{opacity: 0, x:200, rotate:75}}
