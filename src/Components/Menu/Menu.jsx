@@ -37,7 +37,7 @@ const menuData =[
 ]
 const Menu = () => {
     return (
-        <div className="max-w-6xl mx-auto px-4 py-12">
+        <div className="max-w-6xl mx-auto px-4 py-12 overflow-hidden">
             <motion.h1
              initial={{opacity:0, x:-200}}
              whileInView={{opacity:1, x:0}}
