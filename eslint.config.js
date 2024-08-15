@@ -10,10 +10,10 @@ export default [
     ignores: ['dist'],
     languageOptions: {
       ecmaVersion: 2020,
+      node:true,
       globals: globals.browser,
       parserOptions: {
         ecmaVersion: 'latest',
-        node:true,
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
