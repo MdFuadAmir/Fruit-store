@@ -8,12 +8,12 @@ const router = createBrowserRouter([
         element:<Root/>,
         children:[
             {
-                path:"/home",
+                path:"/",
                 element:<Home/>
             },
             {
                 path:"/product",
-                element:<Home/>
+                element:<Home/> 
             },
             {
                 path:"/about",

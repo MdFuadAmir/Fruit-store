@@ -5,7 +5,7 @@ const navberMenu =[
     {
         id:1,
         title:"Home",
-        path:"/home"
+        path:"/"
     },
     {
         id:2,
@@ -45,7 +45,7 @@ const ResponsiveMenu = ({open}) => {
                                 {
                                 navberMenu.map((menu) =>(<li key={menu.id}><Link to={menu.path}>{menu.title}</Link></li>))
                                 }
-                                </ul>
+                                </ul> 
                             </div>
                         </motion.div>
 
